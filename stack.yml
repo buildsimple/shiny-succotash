@@ -1,0 +1,8 @@
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  shiny:
+    lang: go
+    handler: ./shiny
+    image: shiny:latest
